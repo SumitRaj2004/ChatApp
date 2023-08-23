@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Chat</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Chat</h1>
+        </div>
+    </nav>
+    <section class="chat-section">
+        <div class="container">
+            {{!-- <p class="joined-text">Sumit has joined the chat</p>
+            <div class="incoming-chat">
+                <h2 class="incoming-user">Ankit</h2>
+                <p class="incoming-msg">Lorem ipsum dolor sit amet consectetadsfasdfasdfsdaf asdkjsome tin asnt i ur adipisicing elit. Pariatur, nulla?</p>
+            </div>
+            
+            <div class="outgoing-chat">
+                <h2 class="outgoing-user">Sumit</h2>
+                <p class="outgoing-msg">Lorem ipsum dolor sit amet this is what you came for lightning strikes every time she moves and everybody watching her but she lookin at you consectetur adipisicing elit. Pariatur, nulla?</p>
+            </div> --}}
+            {{!-- <p class="left-text">Sumit has left the chat</p> --}}
+        </div>
+    </section>
+    <section class="sendMsg-section">
+        <div class="container">
+            <form action="" class="sendMsg-form">
+                <input type="text" placeholder="Write your message ..." class="msg">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
